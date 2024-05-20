@@ -1,11 +1,11 @@
-import React from 'react'
+import Authform from '@/components/authform';
 
-const page = () => {
+const SignUp = () => {
   return (
-    <div>
-        whats up danger
-    </div>
+    <section className="flex-center size-full max-sm:px-6">
+        <Authform type="sign-up"/>
+    </section>
   )
 }
 
-export default page
+export default  SignUp
